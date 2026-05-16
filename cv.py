@@ -1,6 +1,6 @@
 import os
 import base64
-clear = os.system("clear")
+_ = os.system("clear")
 
 def b64_txt():
 	teks = input("Enter your base64 : ")
@@ -16,7 +16,7 @@ def txt_b64():
 	print(result)
 
 
-print(f"{clear}\n=== BASE64 CONVERTER ===\n1. B64 to txt\n2. Txt to B64\n3. Quit\n")
+print(f"\n=== BASE64 CONVERTER ===\n1. B64 to txt\n2. Txt to B64\n3. Quit\n")
 
 choice = int(input("Choose : "))
 
